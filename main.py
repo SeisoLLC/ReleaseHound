@@ -7,4 +7,3 @@ from release_hound import config
 
 if __name__ == "__main__":
     log = config.setup_logging()
-    raise NotImplementedError()
