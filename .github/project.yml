@@ -1,0 +1,23 @@
+description: Monitor releases from a git repository for a specific commit
+name: release_hound
+origin:
+  generated: true
+  template:
+    branch: main
+    commit hash: e6e867cc3d71f464bd9a9837a89427c79531d012
+    cookiecutter:
+      _template: git+ssh://git@github.com/seisollc/cookiecutter-python.git
+      docker_base: ubuntu:20.04
+      dockerhub: 'no'
+      license: BSD-3-Clause
+      project_name: ReleaseHound
+      project_owner_github_username: jonzeolla
+      project_short_description: Monitor releases from a git repository for a specific
+        commit
+      project_slug: release_hound
+      public: 'no'
+      python_version: '3.9'
+      versioning: CalVer
+    dirty: false
+    location: git+ssh://git@github.com/seisollc/cookiecutter-python.git
+  timestamp: '2023-01-30T20:55:35'
