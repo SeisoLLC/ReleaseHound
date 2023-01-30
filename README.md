@@ -16,7 +16,7 @@ pipenv install --deploy --ignore-pipfile --dev
 pipenv run invoke build
 
 # Run the image
-docker run seiso/release_hound:2023.01.00 --help
+docker run seiso/release_hound:2023.01.01 --help
 ```
 
 ## Troubleshooting
